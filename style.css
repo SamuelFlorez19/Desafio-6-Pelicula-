@@ -51,7 +51,7 @@ h1 {
 
 
 .container {
-  max-width: 100%; /* Make the container take up the full width on smaller screens */
+  max-width: 100%; 
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -203,3 +203,91 @@ button:active {
 span{
   color: #e81cff;
 }
+@media (max-width:767px){
+
+  img{
+    display: none;
+  }
+  
+  .img-palermo, .img-rosario{
+    display: none;
+  }
+}
+
+@media (min-width:767px){
+
+  h1{
+    position: relative;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  color: #e81cff;
+  text-align: center;
+  transform: translateY(-100%);
+  animation: fall 1s ease-out forwards, bounce 0.5s ease-out 1s forwards;
+  }
+
+  .container-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .actividades, .datos_contacto{
+    height: 20rem;
+    
+  }
+
+  .sexo-p{
+    text-align: center;
+  }
+  .sexo_container{
+    display: flex;
+  }
+  
+  .container-info {
+    clear: both;
+    margin-top: 2rem;
+  }
+  
+  .condiciones {
+    margin-bottom: 1rem ;
+  }
+  
+  button{
+    width: 11rem;
+    height: 4rem;
+    font-size: 20px;
+  }
+
+
+  .img-palermo{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 4rem;
+    transition: transform 0.3s ease;
+  }
+  .img-rosario{
+    font-size: 40px;
+    text-align: center;
+    padding-top:6rem;
+    transition: transform 0.3s ease;
+  }
+
+  img{
+    margin: 1rem 0;
+    width: 400px;
+    height: auto;
+    border-radius: 200px;
+    transition: transform 0.3s ease;
+  }
+  img:hover{
+    transform: scale(1.2); 
+  }
+  .img-palermo:hover, .img-rosario:hover{
+    
+    transform: scale(1.2); 
+    
+  }
+}
+
+
