@@ -1,4 +1,4 @@
 Samuel Florez
-Link Repositorio: https://github.com/SamuelFlorez19/Desafio_6_Futurista-
+Link Repositorio: https://github.com/SamuelFlorez19/Desafio-6-pelicula
 
-link netlify: https://6627f3f3dd997b26cca3581c--bucolic-valkyrie-b49e23.netlify.app/
+link netlify: https://66294f3a0115ae39e2845cba--ephemeral-wisp-b0c3b8.netlify.app/
