@@ -15,61 +15,60 @@
 
     <!--? DATOS PERSONALES -->
 
-    <div class="datos_personales">
-      <fieldset>
-        <legend> Datos Personales </legend>
-        <div class="formulario">
+        <div class="datos_personales">
+          <fieldset>
+            <legend> Datos Personales </legend>
+            <div class="formulario">
 
-          <div class="campo">
-            <label for="nombre">Nombre: *</label>
-            <input type="text" id="nombre" name="nombre">
-          </div>
+              <div class="campo">
+                <label for="nombre">Nombre: *</label>
+                <input type="text" id="nombre" name="nombre">
+              </div>
         
-          <div class="campo">
-            <label for="apellido">Apellido: *</label>
-            <input type="text" id="apellido" name="apellido">
-          </div>
+              <div class="campo">
+                <label for="apellido">Apellido: *</label>
+                <input type="text" id="apellido" name="apellido">
+              </div>
         
-          <div class="campo"> 
-            <label for="documento">Documento: *</label>
-            <input type="number" id="documento" name="documento">
-          </div>
+              <div class="campo"> 
+                <label for="documento">Documento: *</label>
+                <input type="number" id="documento" name="documento">
+              </div>
         
-          <div class="campo">
-            <label for="nacionalidad">Nacionalidad: *</label>
-            <select id="nacionalidad" name="nacionalidad" required>
-              <option value="" disabled selected>--Seleccionar--</option>
-              <option value="argentina">Argentina</option>
-              <option value="colombia">Colombia</option>
-              <option value="uruguay">Uruguay</option>
-              <option value="venezuela">Venezuela</option>
-              <option value="ecuador">Ecuador</option>
-            </select>
-          </div>
+              <div class="campo">
+                <label for="nacionalidad">Nacionalidad: *</label>
+                <select id="nacionalidad" name="nacionalidad" required>
+                <option value="" disabled selected>--Seleccionar--</option>
+                  <option value="argentina">Argentina</option>
+                  <option value="colombia">Colombia</option>
+                  <option value="uruguay">Uruguay</option>
+                  <option value="venezuela">Venezuela</option>
+                  <option value="ecuador">Ecuador</option>
+                </select>
+              </div>
         
-          <div class="campo">
-            <label for="sobreusted">Cuentanos un poco de vos:</label>
-            <textarea id="sobreusted" name="sobreusted" rows="4"  cols="50"></textarea>
-          </div>
+              <div class="campo">
+                <label for="sobreusted">Cuentanos un poco de vos:</label>
+                <textarea id="sobreusted" name="sobreusted" rows="4"  cols="50"></textarea>
+              </div>
           
-          <div class="campo-s">
-            <p class="sexo-p">Sexo: *</p>
-            <div class="sexo_container">
-              <input type="radio" id="femenino" name="sexo"   value="femenino">
-              <label for="femenino">Femenino</label>
-              <input type="radio" id="masculino" name="sexo"  value="masculino">
-              <label for="masculino">Masculino</label>
-              <input type="radio" id="otro" name="sexo" value="otro">
-              <label for="otro">Otro</label>
+              <div class="campo-s">
+                <p class="sexo-p">Sexo: *</p>
+                <div class="sexo_container">
+                  <input type="radio" id="femenino" name="sexo"   value="femenino">
+                  <label for="femenino">Femenino</label>
+                  <input type="radio" id="masculino" name="sexo"  value="masculino">
+                  <label for="masculino">Masculino</label>
+                  <input type="radio" id="otro" name="sexo" value="otro">
+                  <label for="otro">Otro</label>
+                </div>
+              </div>
             </div>
+          </fieldset>
         </div>
-      </div>
-      
-      </fieldset>
-    </div>
 
     
-      <p class="puntos">. . . . . . . . . . .</p>
+      
     
 <!-- ? DATOS DE CONTACTO -->
 
@@ -87,14 +86,10 @@
           <input type="email" id="email" name="email" placeholder="Ej: mail@gmail.com" required>
         </div>
       </fieldset>
-      
-      <div class="img-palermo">
-        Sede <span>Palermo</span>
-      </div>
-      <img  src="/imagen-gym-fachada.webp" alt="Gym futurista sede parlemo">
+      <img src="/gym-rosario.jpg" alt="imagen de rutina">
     </div>
 
-    <p class="puntos">. . . . . . . . . . .</p>
+    
 
     <!-- ?CTIVIDADES -->
 
@@ -123,10 +118,9 @@
           </div>
           </div>
         </fieldset>
-        <div class="img-rosario">
-          Sede <span>Rosario</span>
+        <div class="rutina">
+          SIGUE LA <br><span>RUTINA</span>
         </div>
-        <img  src="/imagen-gym-fachada-2.jpg" alt="Gym futurista sede rosario">
       </div>
     </div>
 
@@ -147,10 +141,14 @@
       <div class="botones">
 
         <div class="boton-1">
-          <button>Iniciar afiliación</button>
+          <button>
+            <span>Iniciar afiliación</span>
+          </button>
         </div>
         <div class="boton-2">
-          <button>Restablecer</button>
+          <button>
+            <span>Restablecer</span>
+          </button>
         </div>
       </div>  
       </div>
